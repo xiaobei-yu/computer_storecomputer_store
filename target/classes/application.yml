@@ -30,13 +30,10 @@ pagehelper:
   params: count=countSql
 
 server:
-  #本地项目的写法
+  #部署服务器
   port: 8080
-  ip: 127.0.0.1
-#  部署服务器的写法
-#  ip: 服务器ip地址
-#  port: 8080
-#  filePath: /home/files/computer/
+  ip: 192.168.139.24
+
 
 
 
